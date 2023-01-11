@@ -7,7 +7,7 @@
 
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: cornsilk;
+    background-color: rgb(213, 255, 246);
 }
 
 
@@ -15,14 +15,84 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
+    gap: 1.6rem;
     align-items: center;
     flex-direction: column;
 }
 
+.heading{
+    margin: 1rem;
+    
+}
 
+.container{
+    padding: 1rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.9rem;
+    justify-content: center;
+    align-items: center;
+}
 
+.text-one{
+    border: 1px solid;
+    width: 90%;
+    text-align: start;
+    border-radius: 10px;
+    padding: 1.6rem;
+    transition: all 5s ease;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 7px 7px 0 rgba(0,0,0,0.4);
+}
 
+.text-two{
+    border: 1px solid;
+    width: 90%;
+    text-align: start;
+    border-radius: 10px;
+    padding: 1.6rem;
+    transition: all 5s ease;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 7px 7px 0 rgba(0,0,0,0.4);
+}
 
+.text-three{
+    border: 1px solid;
+    width: 90%;
+    text-align: start;
+    border-radius: 10px;
+    padding: 1.6rem;
+    transition: all 5s ease;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 7px 10px 0 rgba(0,0,0,0.4);
+}
 
+.close{
+    display: none;
+}
+
+.open{
+    display: block;
+    transition: all 5s ease-in;
+    transform: translateY(4px);
+    margin-top: 40px;
+}
+
+.btn.open{
+    border: 2px solid red;
+}
+
+.btn{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    right: 6px;
+    top: 20px;
+}
 
 
